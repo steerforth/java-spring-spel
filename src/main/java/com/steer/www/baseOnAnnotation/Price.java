@@ -1,4 +1,4 @@
-package com.steer.www;
+package com.steer.www.baseOnAnnotation;
 
 import org.springframework.stereotype.Component;
 

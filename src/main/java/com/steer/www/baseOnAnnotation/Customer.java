@@ -1,8 +1,11 @@
-package com.steer.www;
+package com.steer.www.baseOnAnnotation;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 
+/**
+ * SPEL 获取对象，对象属性，获取对象的方法
+ */
 @Component("customer")
 public class Customer {
     @Value("#{item}")
@@ -34,5 +37,14 @@ public class Customer {
 
     public void setAmount(double amount) {
         this.amount = amount;
+    }
+
+    @Override
+    public String toString() {
+        return "Customer{" +
+                "item=" + item +
+                ", itemName='" + itemName + '\'' +
+                ", amount=" + amount +
+                '}';
     }
 }
