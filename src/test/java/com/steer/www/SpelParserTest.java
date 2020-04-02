@@ -11,6 +11,7 @@ import org.springframework.expression.ExpressionParser;
 import org.springframework.expression.spel.standard.SpelExpressionParser;
 import org.springframework.expression.spel.support.StandardEvaluationContext;
 
+import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
@@ -110,5 +111,25 @@ public class SpelParserTest {
         //调用静态方法
         parser.parseExpression("read()").getValue(context, Boolean
                 .class);
+    }
+
+    @Test
+    public void parseVariable(){
+        Map<String, Integer> map = new HashMap<String, Integer>();
+        map.put("a", 11);
+
+        EvaluationContext context = new StandardEvaluationContext();
+        context.setVariable("map", map);
+        int result = parser.parseExpression("#map['a']").getValue(context, int.class);
+        Assert.assertEquals(11,result);
+    }
+
+
+    @Test
+    public void parseArithmetic(){
+        EvaluationContext context = new StandardEvaluationContext();
+        context.setVariable("A", 5);
+        int result = parser.parseExpression("#A*3/5").getValue(context, int.class);
+        Assert.assertEquals(3,result);
     }
 }
