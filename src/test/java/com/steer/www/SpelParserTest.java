@@ -11,6 +11,7 @@ import org.springframework.expression.ExpressionParser;
 import org.springframework.expression.spel.standard.SpelExpressionParser;
 import org.springframework.expression.spel.support.StandardEvaluationContext;
 
+import java.util.BitSet;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -128,8 +129,8 @@ public class SpelParserTest {
     @Test
     public void parseArithmetic(){
         EvaluationContext context = new StandardEvaluationContext();
-        context.setVariable("A", 5);
-        int result = parser.parseExpression("#A*3/5").getValue(context, int.class);
+        context.setVariable("val", 5);
+        Object result = parser.parseExpression("#val*0.01").getValue(context);
         Assert.assertEquals(3,result);
     }
 }

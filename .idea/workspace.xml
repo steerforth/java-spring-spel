@@ -2,14 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c522bd23-cc2b-4aac-bfa1-1d50a0738e6b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/java-spring-spel.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/steer.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/steer/www/SpelParserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/steer/www/SpelParserTest.java" afterDir="false" />
     </list>
@@ -42,7 +34,7 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="project.propCompiler" />
   </component>
-  <component name="RunManager" selected="JUnit.SpelParserTest.parse">
+  <component name="RunManager" selected="JUnit.SpelParserTest.parseArithmetic">
     <configuration name="SpelParserTest.parse" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java-spring-spel" />
       <extension name="coverage">
@@ -54,6 +46,22 @@
       <option name="PACKAGE_NAME" value="com.steer.www" />
       <option name="MAIN_CLASS_NAME" value="com.steer.www.SpelParserTest" />
       <option name="METHOD_NAME" value="parse" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpelParserTest.parseArithmetic" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java-spring-spel" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.steer.www.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.steer.www" />
+      <option name="MAIN_CLASS_NAME" value="com.steer.www.SpelParserTest" />
+      <option name="METHOD_NAME" value="parseArithmetic" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -77,6 +85,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SpelParserTest.parseArithmetic" />
         <item itemvalue="JUnit.SpelParserTest.parse" />
         <item itemvalue="JUnit.SpelParserTest.parseVariable" />
       </list>
@@ -93,7 +102,8 @@
       <option name="presentableId" value="Default" />
       <updated>1572939404049</updated>
       <workItem from="1572939407081" duration="1248000" />
-      <workItem from="1585816775825" duration="4113000" />
+      <workItem from="1585816775825" duration="5852000" />
+      <workItem from="1586241125027" duration="7354000" />
     </task>
     <servers />
   </component>
@@ -101,45 +111,57 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1866" height="295" key="GridCell.Tab.0.bottom" timestamp="1585823937812">
+    <state x="100" y="125" width="1720" height="855" key="DiffContextDialog" timestamp="1585880970988">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1866" height="295" key="GridCell.Tab.0.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1585823937812" />
-    <state width="1866" height="295" key="GridCell.Tab.0.center" timestamp="1585823937812">
+    <state x="100" y="125" width="1720" height="855" key="DiffContextDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1585880970988" />
+    <state width="1846" height="295" key="GridCell.Tab.0.bottom" timestamp="1586317311642">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1866" height="295" key="GridCell.Tab.0.center/0.27.1920.1053@0.27.1920.1053" timestamp="1585823937812" />
-    <state width="1866" height="295" key="GridCell.Tab.0.left" timestamp="1585823937811">
+    <state width="1846" height="295" key="GridCell.Tab.0.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1586317311642" />
+    <state width="1846" height="295" key="GridCell.Tab.0.center" timestamp="1586317311642">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1866" height="295" key="GridCell.Tab.0.left/0.27.1920.1053@0.27.1920.1053" timestamp="1585823937811" />
-    <state width="1866" height="295" key="GridCell.Tab.0.right" timestamp="1585823937812">
+    <state width="1846" height="295" key="GridCell.Tab.0.center/0.27.1920.1053@0.27.1920.1053" timestamp="1586317311642" />
+    <state width="1846" height="295" key="GridCell.Tab.0.left" timestamp="1586317311641">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1866" height="295" key="GridCell.Tab.0.right/0.27.1920.1053@0.27.1920.1053" timestamp="1585823937812" />
-    <state width="1866" height="295" key="GridCell.Tab.1.bottom" timestamp="1585823937813">
+    <state width="1846" height="295" key="GridCell.Tab.0.left/0.27.1920.1053@0.27.1920.1053" timestamp="1586317311641" />
+    <state width="1846" height="295" key="GridCell.Tab.0.right" timestamp="1586317311642">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1866" height="295" key="GridCell.Tab.1.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1585823937813" />
-    <state width="1866" height="295" key="GridCell.Tab.1.center" timestamp="1585823937813">
+    <state width="1846" height="295" key="GridCell.Tab.0.right/0.27.1920.1053@0.27.1920.1053" timestamp="1586317311642" />
+    <state width="1846" height="295" key="GridCell.Tab.1.bottom" timestamp="1586317311643">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1866" height="295" key="GridCell.Tab.1.center/0.27.1920.1053@0.27.1920.1053" timestamp="1585823937813" />
-    <state width="1866" height="295" key="GridCell.Tab.1.left" timestamp="1585823937813">
+    <state width="1846" height="295" key="GridCell.Tab.1.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1586317311643" />
+    <state width="1846" height="295" key="GridCell.Tab.1.center" timestamp="1586317311642">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1866" height="295" key="GridCell.Tab.1.left/0.27.1920.1053@0.27.1920.1053" timestamp="1585823937813" />
-    <state width="1866" height="295" key="GridCell.Tab.1.right" timestamp="1585823937813">
+    <state width="1846" height="295" key="GridCell.Tab.1.center/0.27.1920.1053@0.27.1920.1053" timestamp="1586317311642" />
+    <state width="1846" height="295" key="GridCell.Tab.1.left" timestamp="1586317311642">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1866" height="295" key="GridCell.Tab.1.right/0.27.1920.1053@0.27.1920.1053" timestamp="1585823937813" />
+    <state width="1846" height="295" key="GridCell.Tab.1.left/0.27.1920.1053@0.27.1920.1053" timestamp="1586317311642" />
+    <state width="1846" height="295" key="GridCell.Tab.1.right" timestamp="1586317311642">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1846" height="295" key="GridCell.Tab.1.right/0.27.1920.1053@0.27.1920.1053" timestamp="1586317311642" />
+    <state x="624" y="476" key="com.intellij.ide.util.TipDialog" timestamp="1586317339617">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="624" y="476" key="com.intellij.ide.util.TipDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1586317339617" />
+    <state x="623" y="257" width="672" height="678" key="search.everywhere.popup" timestamp="1586245129415">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="623" y="257" width="672" height="678" key="search.everywhere.popup/0.27.1920.1053@0.27.1920.1053" timestamp="1586245129415" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/com/steer/www/SpelParserTest.java</url>
-          <line>132</line>
+          <line>136</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
